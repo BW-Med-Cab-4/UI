@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/*border: 0;*/  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    box-sizing: border-box;
+    max-width:100%;
+    /*border: 1px solid red;*/
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.5rem;
+    color: whitesmoke
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive; 
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-left: 3rem;
+} 
+
+h1, h3 {
+    font-family: 'Bree Serif', serif;
+    font-size: 6rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    padding: 1.5rem;
+}
+
+p {
+    font-size: 2rem;
+    margin: 2rem;
+    font-family: 'Zilla Slab', serif;
+}
+
+footer {
+    background-color: lightskyblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: black;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    height: 55vh;
+}
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-button {
+    padding: .5rem 3rem;
+    width: 25%;
+    margin: 1rem;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.hero-image {
+    height: 45vh;
+    background: url('../images/rx.jpg');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+.box {
+    width: 48%;
+}
+
+.box2 {
+    background-color: black;
+    color: yellow;
+    text-align: right;
+    padding-right: 2rem;
+    line-height: 1.2;
+}
+
+.motivation1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 31vh;
+    background-color: black;
+}
+
+@media (max-width: 500px) {
+    
+   
+}
+
+
+
+
