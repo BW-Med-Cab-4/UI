@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -87,7 +90,7 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    font-size: 62.5%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -136,10 +139,6 @@ table {
     border-spacing: 0;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 
 /* hex color code */
 
@@ -156,8 +155,6 @@ html {
 
 /* font imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Zilla+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 h1 {
     font-family: 'Comfortaa', cursive;
     color: #214e34ff;
@@ -166,7 +163,6 @@ h1 {
 p,
 a {
     font-family: 'Zilla Slab', serif;
-    font-size: 2rem;
 }
 
 h2,
@@ -185,7 +181,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50% 35%;
     background-size: 100%;
-    height: 25vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -231,19 +227,8 @@ h1 {
     margin: 0 0 25px;
 }
 
-@supports (-webkit-text-stroke: 3px #214e34ff) {
-    h1 {
-        -webkit-text-stroke: 3px #214e34ff;
-        -webkit-text-fill-color: #ffbc42ff;
-    }
-}
-
 
 /* main styles */
-
-body {
-    background-color: #86bbd8ff;
-}
 
 .mainPage {
     /* display: flex;
@@ -266,10 +251,9 @@ body {
 
 .circle a {
     text-decoration: none;
-    color: #214e34ff;
-    border: 3px solid #2f243aff;
+    color: #000;
+    border: 1px solid #000;
     border-radius: 10px;
     margin: 10px 0;
     padding: 10px 20px;
-    background-color: #9ee493ff;
 }
