@@ -136,6 +136,10 @@ table {
     border-spacing: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 
 /* hex color code */
 
@@ -162,6 +166,7 @@ h1 {
 p,
 a {
     font-family: 'Zilla Slab', serif;
+    font-size: 2rem;
 }
 
 h2,
@@ -180,7 +185,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50% 35%;
     background-size: 100%;
-    height: 35vh;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,8 +231,19 @@ h1 {
     margin: 0 0 25px;
 }
 
+@supports (-webkit-text-stroke: 3px #214e34ff) {
+    h1 {
+        -webkit-text-stroke: 3px #214e34ff;
+        -webkit-text-fill-color: #ffbc42ff;
+    }
+}
+
 
 /* main styles */
+
+body {
+    background-color: #86bbd8ff;
+}
 
 .mainPage {
     /* display: flex;
@@ -250,9 +266,10 @@ h1 {
 
 .circle a {
     text-decoration: none;
-    color: #000;
-    border: 1px solid #000;
+    color: #214e34ff;
+    border: 3px solid #2f243aff;
     border-radius: 10px;
     margin: 10px 0;
     padding: 10px 20px;
+    background-color: #9ee493ff;
 }
