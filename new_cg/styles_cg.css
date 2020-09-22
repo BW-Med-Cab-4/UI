@@ -332,6 +332,16 @@ header nav {
 /* mobile styles */
 
 @media (max-width: 500px) {
+    header nav a {
+        font-size: .7rem;
+    }
+    .welcomeSection {
+        flex-direction: column;
+    }
+    .welcomeSection .left {
+        width: 100%;
+        background-position: 50% 35%;
+    }
     .welcomeSection .left h1 {
         font-size: 2rem;
     }
@@ -341,7 +351,8 @@ header nav {
         /* border: 1px solid red; */
     }
     .appFeatures .circle {
-        /* border: 1px solid blue; */
+        border: 1px solid blue;
         margin: 10px 0;
+        width: 75%;
     }
 }
