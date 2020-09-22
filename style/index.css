@@ -101,13 +101,12 @@ main {
 }
 .main-buttons {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .main-button {
     padding: .5rem 3rem;
-    width: 30%;
+    width: 32%;
     margin: 1rem;
     background-color:blueviolet;
     border-radius: 10px;
@@ -123,17 +122,6 @@ main {
     
 }
 
-.box {
-    width: 48%;
-}
-
-.box2 {
-    background-color: black;
-    color: yellow;
-    text-align: right;
-    padding-right: 2rem;
-    line-height: 1.2;
-}
 
 .motivation1 {
     display: flex;
@@ -153,22 +141,24 @@ footer {
 }
 
 /* ------ Features Page Styles ------ */
-
-.features-page {
-    height: 45vh;
-    background: url('../images/weed-hand.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.the-features {
+    background-color: #26282C;
+    padding: 1rem 0;
+    padding-top: 3rem;
 }
 
-.features-h1 {
-    color: yellow;
+.box {
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
 }
 
-.discover {
-    font-size: 
+.img1, .img2, .img3 {
+    border-radius: 50%;  
+    width: 50%;
 }
+
+
 
 /* ------ Breakpoints Styles ------ */
 
@@ -195,6 +185,12 @@ footer {
     .main-content {
         height: 50vh;
     }
+    .the-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -213,6 +209,9 @@ footer {
     .main-button {
         width: 20%;
     }  
+    .box p {
+        font-size: 2rem;
+    }
 }
 
 
