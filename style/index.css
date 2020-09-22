@@ -25,7 +25,7 @@ vertical-align: baseline;
 * {
     box-sizing: border-box;
     max-width:100%;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 /* ------ Mission Page Styles ------ */
 html {
@@ -74,7 +74,7 @@ nav {
     padding: .5rem;
 }
 
-p {
+p, h5 {
     font-size: 2rem;
     margin: 2rem;
     font-family: 'Zilla Slab', serif;
@@ -137,7 +137,6 @@ footer {
 .footer-logo {
     display: flex;
     justify-content: center;
-    
 }
 
 /* ------ Features Page Styles ------ */
@@ -190,6 +189,7 @@ footer {
     align-items: center;
     justify-content: center;
     }
+   
 
 }
 
@@ -209,9 +209,7 @@ footer {
     .main-button {
         width: 20%;
     }  
-    .box p {
-        font-size: 2rem;
-    }
+    
 }
 
 
