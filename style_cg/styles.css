@@ -356,3 +356,46 @@ header nav {
         width: 75%;
     }
 }
+
+
+/* About the team style */
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.aboutContainer .title {
+    border: 1px solid red;
+}
+
+.workers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid red;
+}
+
+.workerCard {
+    width: 25%;
+    border: 1px solid red;
+}
+
+.workerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workerCard img {
+    width: 25%;
+}
