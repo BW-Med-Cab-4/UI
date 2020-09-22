@@ -36,14 +36,16 @@ a {
     text-decoration: none;
     font-family: 'Zilla Slab', serif;
     font-size: 1.5rem;
-    color: whitesmoke
+    color: whitesmoke;
+    padding: 0 .5rem;
 }
 
 h2 {
     font-family: 'Comfortaa', cursive; 
     font-size: 3rem;
     color: whitesmoke;
-    margin-left: 3rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
 } 
 
 h1, h3 {
@@ -51,11 +53,17 @@ h1, h3 {
     font-size: 6rem;
 }
 
+h4 {
+    font-family: 'Comfortaa', cursive; 
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    background-color: black;
+    background-color: #2F243A;
 }
 
 nav {
@@ -63,7 +71,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     width: 50%;
-    padding: 1.5rem;
+    padding: .5rem;
 }
 
 p {
@@ -72,9 +80,7 @@ p {
     font-family: 'Zilla Slab', serif;
 }
 
-footer {
-    background-color: lightskyblue;
-}
+
 
 main {
     display: flex;
@@ -90,7 +96,8 @@ main {
     text-align: center;
     align-self: center;
     justify-content: center;
-    height: 55vh;
+    height: 80vh;
+    background-color: whitesmoke;
 }
 .main-buttons {
     display: flex;
@@ -100,9 +107,9 @@ main {
 
 .main-button {
     padding: .5rem 3rem;
-    width: 25%;
+    width: 30%;
     margin: 1rem;
-    background-color: black;
+    background-color: #2F243A;
     border-radius: 10px;
 }
 
@@ -111,7 +118,7 @@ main {
     background: url('../images/rx.jpg');
     opacity: 0.8;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     
 }
@@ -135,10 +142,57 @@ main {
     height: 31vh;
     background-color: black;
 }
-
-@media (max-width: 500px) {
+footer {
+    background-color: #2F243A;
+    padding: .5rem;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
     
-   
+}
+
+@media (min-width: 500px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    h2 {
+        margin-left: 3rem;
+    }
+    nav {
+        margin-right: 3rem;
+    }
+    .main-content {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 800px) {
+    header, footer {
+        padding: 2rem 0;
+    }
+    .main-content {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-content {
+        height: 65vh;
+    }
+    
+    h1 {
+        font-size: 8rem;
+    }
+    p {
+        font-size: 3rem;
+        width: 80%;
+        align-self: center;
+    }
+    .main-button {
+        width: 20%;
+    }  
 }
 
 
