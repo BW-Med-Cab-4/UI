@@ -27,7 +27,7 @@ vertical-align: baseline;
     max-width:100%;
     /*border: 1px solid red;*/
 }
-
+/* ------ Mission Page Styles ------ */
 html {
     font-size: 62.5%;
 }
@@ -152,6 +152,26 @@ footer {
     
 }
 
+/* ------ Features Page Styles ------ */
+
+.features-page {
+    height: 45vh;
+    background: url('../images/weed-hand.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.features-h1 {
+    color: yellow;
+}
+
+.discover {
+    font-size: 
+}
+
+/* ------ Breakpoints Styles ------ */
+
 @media (min-width: 500px) {
     header {
         flex-direction: row;
@@ -179,7 +199,7 @@ footer {
 
 @media (min-width: 1024px) {
     .main-content {
-        height: 65vh;
+        height: 70vh;
     }
     
     h1 {
