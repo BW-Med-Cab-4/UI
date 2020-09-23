@@ -260,7 +260,7 @@ header nav {
 
 .welcomeSection .right {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
@@ -283,12 +283,16 @@ header nav {
     border-left: 1px solid whitesmoke;
 }
 
+.welcomeSection .right p {
+    margin: 10px 20px;
+}
+
 .appFeatures {
     display: flex;
     justify-content: space-evenly;
     /* border: 1px solid red; */
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .appFeatures .circle img {
@@ -330,6 +334,13 @@ footer {
     header nav a {
         font-size: 1rem;
     }
+    .welcomeSection {
+        flex-direction: column;
+    }
+    .welcomeSection .left {
+        width: 100%;
+        background-position: 50% 35%;
+    }
     .welcomeSection .left h1 {
         font-size: 3rem;
     }
@@ -361,13 +372,6 @@ footer {
     }
     header nav a {
         font-size: .9rem;
-    }
-    .welcomeSection {
-        flex-direction: column;
-    }
-    .welcomeSection .left {
-        width: 100%;
-        background-position: 50% 35%;
     }
     .welcomeSection .left h1 {
         font-size: 2rem;
