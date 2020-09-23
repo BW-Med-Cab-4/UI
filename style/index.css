@@ -22,16 +22,17 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+/*---- To make flexbox work correctly ----*/
 * {
     box-sizing: border-box;
     max-width:100%;
     /*border: 1px solid red;*/
 }
-/* ------ Mission Page Styles ------ */
+/*------ To make rems work ------*/
 html {
     font-size: 62.5%;
 }
-
+/* ------ Mission/Features Page Styles: Mobile First ------ */
 a {
     text-decoration: none;
     font-family: 'Zilla Slab', serif;
@@ -39,7 +40,7 @@ a {
     color: whitesmoke;
     padding: 0 .5rem;
 }
-
+/*--- MedCab logo ---*/
 h2 {
     font-family: 'Comfortaa', cursive; 
     font-size: 3rem;
@@ -47,25 +48,25 @@ h2 {
     margin-left: .5rem;
     margin-top: .5rem;
 } 
-
-h1, h3 {
+/*--- Page Headings ---*/
+h1 {
     font-family: 'Bree Serif', serif;
     font-size: 6rem;
 }
-
+/*--- Footer MedCab Logo ---*/
 h4 {
     font-family: 'Comfortaa', cursive; 
     font-size: 3rem;
     color: whitesmoke;
 }
-
+/*--- Header styles under 800px ---*/
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #26282C;
 }
-
+/*--- NavBar styles under 800px ---*/
 nav {
     display: flex;
     align-items: center;
@@ -73,7 +74,7 @@ nav {
     width: 50%;
     padding: .5rem;
 }
-
+/*--- Styles under 800px ---*/
 p, h5 {
     font-size: 2rem;
     margin: 2rem;
@@ -81,14 +82,14 @@ p, h5 {
 }
 
 
-
+/*--- Main is the block of text and main heading on each page ---*/
 main {
     display: flex;
     flex-direction: column;
     align-self: center;
     color: black;
 }
-
+/*--- Mission page main content ---*/
 .main-content {
     width: 100%;
     display: flex;
@@ -96,9 +97,10 @@ main {
     text-align: center;
     align-self: center;
     justify-content: center;
-    height: 80vh;
+    height: 85vh;
     background-color: whitesmoke;
 }
+/*--- Sign up and Log in buttons on Mission/Features ---*/
 .main-buttons {
     display: flex;
     justify-content: center;  
@@ -111,7 +113,7 @@ main {
     background-color:blueviolet;
     border-radius: 10px;
 }
-
+/*--- Image on Mission page ---*/
 .hero-image {
     height: 45vh;
     background: url('../images/rx.jpg');
@@ -121,15 +123,7 @@ main {
     background-position: center;
     
 }
-
-
-.motivation1 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 31vh;
-    background-color: black;
-}
+/*------Footer------*/
 footer {
     background-color: #26282C;
     padding: .5rem;
@@ -145,13 +139,13 @@ footer {
     padding: 1rem 0;
     padding-top: 3rem;
 }
-
+/*--- Container for Circular Images with captions ---*/
 .box {
     color: whitesmoke;
     text-align: center;
     align-items: center;
 }
-
+/*--- Circular Images ---*/
 .img1, .img2, .img3 {
     border-radius: 50%;  
     width: 50%;
@@ -173,7 +167,10 @@ footer {
         margin-right: 3rem;
     }
     .main-content {
-        height: 60vh;
+        height: 65vh;
+    }
+    .hero-image {
+        height: 50vh;
     }
 }
 
@@ -189,13 +186,14 @@ footer {
     align-items: center;
     justify-content: center;
     }
-   
-
+    .hero-image {
+        height: 75vh;
+    }
 }
 
 @media (min-width: 1024px) {
     .main-content {
-        height: 70vh;
+        height: 85vh;
     }
     
     h1 {
@@ -209,7 +207,9 @@ footer {
     .main-button {
         width: 20%;
     }  
-    
+    .hero-image {
+        height: 90vh;
+    }
 }
 
 
