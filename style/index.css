@@ -40,6 +40,9 @@ a {
     color: whitesmoke;
     padding: 0 .5rem;
 }
+a:hover {
+    opacity: 75%;
+}
 /*--- MedCab logo ---*/
 h2 {
     font-family: 'Comfortaa', cursive; 
