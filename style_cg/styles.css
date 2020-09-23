@@ -452,3 +452,32 @@ header nav {
 .section {
     margin: 10px;
 }
+
+
+/* Width Breakpoints */
+
+
+/* 1000px */
+
+@media (max-width: 1000px) {}
+
+
+/* 800px */
+
+@media (max-width: 800px) {
+    .workers {
+        flex-direction: column;
+    }
+}
+
+
+/* 500px */
+
+@media (max-width: 500px) {
+    .aboutContainer h2 {
+        font-size: 1.2rem;
+    }
+    .aboutContainer h3 {
+        font-size: 0.9rem;
+    }
+}
