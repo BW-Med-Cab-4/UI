@@ -192,6 +192,10 @@ p {
 
 /* header style */
 
+body {
+    background-color: #26282C;
+}
+
 header {
     /* background-color: #214e34ff; */
     background-color: #26282C;
@@ -227,6 +231,11 @@ header nav {
     background-repeat: no-repeat;
     background-size: contain;
 } */
+
+.mainPage {
+    background-color: #26282C;
+    color: whitesmoke;
+}
 
 .welcomeSection {
     display: flex;
@@ -267,11 +276,11 @@ header nav {
 }
 
 .welcomeSection .right nav a {
-    color: #214e34ff;
+    color: whitesmoke;
 }
 
 .welcomeSection .right span {
-    border-left: 1px solid #214e34ff;
+    border-left: 1px solid whitesmoke;
 }
 
 .appFeatures {
@@ -293,6 +302,10 @@ header nav {
     align-items: center;
     width: 30%;
     /* border: 1px solid blue; */
+}
+
+footer {
+    color: whitesmoke;
 }
 
 
@@ -445,7 +458,8 @@ header nav {
     /* border: 1px solid blue; */
 }
 
-.TL {
+.TL,
+.BE {
     width: 60%;
 }
 
