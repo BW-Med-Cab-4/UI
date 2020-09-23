@@ -144,25 +144,11 @@ a:hover {
 }
 
 
-/* hex color code */
-
-
-/* CSS HEX */
-
-
-/* --maximum-yellow-red: #ffbc42ff;
---dark-purple: #2f243aff;
---dark-sky-blue: #86bbd8ff;
---granny-smith-apple: #9ee493ff;
---british-racing-green: #214e34ff; */
-
-
-/* font imports */
+/* font imports and text styles */
 
 h1,
 h2 {
     font-family: 'Comfortaa', cursive;
-    /* color: #ffbc42ff; */
 }
 
 h1 {
@@ -172,6 +158,8 @@ h1 {
 p,
 a {
     font-family: 'Zilla Slab', serif;
+    text-decoration: none;
+    text-align: center;
 }
 
 h3,
@@ -181,39 +169,28 @@ h6 {
     font-family: 'Bree Serif', serif;
 }
 
-a {
-    text-decoration: none;
-}
-
-p {
-    text-align: center;
-}
-
 
 /* header style */
 
 body {
     background-color: #26282C;
+    color: whitesmoke;
 }
 
 header {
-    /* background-color: #214e34ff; */
     background-color: #26282C;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 12vh;
-    color: whitesmoke;
 }
 
 header a {
-    /* color: #ffbc42ff; */
     font-size: 1rem;
     color: whitesmoke;
 }
 
 header h2 {
-    /* color: #ffbc42ff; */
     font-size: 1.9rem;
     margin: auto 2rem;
 }
@@ -222,19 +199,10 @@ header nav {
     display: flex;
     justify-content: space-evenly;
     width: 55%;
-    /* border: 1px solid red; */
 }
-
-
-/* .mainPage {
-    background-image: url("../resources/landingImg.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-} */
 
 .mainPage {
     background-color: #26282C;
-    color: whitesmoke;
 }
 
 .welcomeSection {
@@ -245,7 +213,6 @@ header nav {
 }
 
 .welcomeSection .left {
-    /* background-image: url("https://images.unsplash.com/photo-1580281658223-9b93f18ae9ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"); */
     background-image: url("../resources/landingImg_handAndPlant.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,7 +222,6 @@ header nav {
     justify-content: center;
     align-items: center;
     color: #ffbc42ff;
-    /* border: 1px solid red; */
 }
 
 .welcomeSection .right {
@@ -265,14 +231,12 @@ header nav {
     justify-content: space-evenly;
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
 }
 
 .welcomeSection .right nav {
     width: 40%;
     display: flex;
     justify-content: space-evenly;
-    /* border: 1px solid blue; */
 }
 
 .welcomeSection .right nav a {
@@ -287,10 +251,12 @@ header nav {
     margin: 10px 20px;
 }
 
+
+/* app features (bottom of page) */
+
 .appFeatures {
     display: flex;
     justify-content: space-evenly;
-    /* border: 1px solid red; */
     width: 80%;
     margin: 30px auto;
 }
@@ -305,23 +271,11 @@ header nav {
     flex-direction: column;
     align-items: center;
     width: 30%;
-    /* border: 1px solid blue; */
 }
 
-footer {
-    color: whitesmoke;
-}
-
-
-/* fix nav at 900px styles */
-
-@media (max-width: 900px) {
-    header nav {
-        width: 55%;
-    }
-    .welcomeSection .left h1 {
-        font-size: 3.5rem;
-    }
+.appFeatures p,
+.appFeatures h4 {
+    margin: 10px auto 0;
 }
 
 
@@ -347,18 +301,6 @@ footer {
 }
 
 
-/* fix feature pile up at 700px */
-
-@media (max-width: 700px) {
-    .appFeatures .circle h4 {
-        font-size: .8rem;
-    }
-    .appFeatures .circle p {
-        font-size: .6rem;
-    }
-}
-
-
 /* mobile styles */
 
 @media (max-width: 500px) {
@@ -379,10 +321,8 @@ footer {
     .appFeatures {
         flex-direction: column;
         align-items: center;
-        /* border: 1px solid red; */
     }
     .appFeatures .circle {
-        /* border: 1px solid blue; */
         margin: 10px 0;
         width: 75%;
     }
@@ -392,13 +332,10 @@ footer {
 /* About the team style */
 
 .aboutContainer {
-    /* background-color: #9ee493ff; */
     background-color: rgba(222, 255, 200, 0.897);
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 20px 5px; */
-    /* border: 1px solid red; */
 }
 
 .aboutContainer .title {
@@ -411,7 +348,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 0 10px;
-    /* border: 1px solid red; */
 }
 
 .aboutContainer h3,
@@ -429,7 +365,6 @@ footer {
 
 .aboutContainer h1 {
     color: #ffbc42ff;
-    /* color: whitesmoke; */
 }
 
 .aboutContainer {
@@ -437,7 +372,6 @@ footer {
     flex-direction: column;
     align-items: center;
     color: #2f243aff;
-    /* border: 1px solid red; */
 }
 
 .teamLead {
@@ -451,7 +385,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 .workerCard {
@@ -459,7 +392,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid blue; */
 }
 
 .TL,
@@ -500,16 +432,14 @@ footer {
 /* Width Breakpoints */
 
 
-/* 1000px */
-
-@media (max-width: 1000px) {}
-
-
 /* 800px */
 
 @media (max-width: 800px) {
     .workers {
         flex-direction: column;
+    }
+    .title h1 {
+        font-size: 4rem;
     }
 }
 
