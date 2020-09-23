@@ -159,10 +159,14 @@ a:hover {
 
 /* font imports */
 
-h1 {
+h1,
+h2 {
     font-family: 'Comfortaa', cursive;
-    color: #ffbc42ff;
-    font-size: 5rem;
+    /* color: #ffbc42ff; */
+}
+
+h1 {
+    font-size: 6rem;
 }
 
 p,
@@ -170,7 +174,6 @@ a {
     font-family: 'Zilla Slab', serif;
 }
 
-h2,
 h3,
 h4,
 h5,
@@ -190,27 +193,31 @@ p {
 /* header style */
 
 header {
-    background-color: #214e34ff;
+    /* background-color: #214e34ff; */
+    background-color: #26282C;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
+    height: 12vh;
+    color: whitesmoke;
 }
 
 header a {
-    color: #ffbc42ff;
-    font-size: 1.3rem;
+    /* color: #ffbc42ff; */
+    font-size: 1rem;
+    color: whitesmoke;
 }
 
-header h3 {
-    color: #ffbc42ff;
-    font-size: 1.7rem;
+header h2 {
+    /* color: #ffbc42ff; */
+    font-size: 1.9rem;
+    margin: auto 2rem;
 }
 
 header nav {
     display: flex;
     justify-content: space-evenly;
-    width: 45%;
+    width: 55%;
     /* border: 1px solid red; */
 }
 
@@ -238,6 +245,7 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffbc42ff;
     /* border: 1px solid red; */
 }
 
@@ -330,8 +338,16 @@ header nav {
 /* mobile styles */
 
 @media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    header nav {
+        margin: 10px;
+    }
     header nav a {
-        font-size: .7rem;
+        font-size: .9rem;
     }
     .welcomeSection {
         flex-direction: column;
@@ -392,6 +408,11 @@ header nav {
 
 .aboutContainer h2 {
     font-size: 1.4rem;
+}
+
+.aboutContainer h1 {
+    color: #ffbc42ff;
+    /* color: whitesmoke; */
 }
 
 .aboutContainer {
