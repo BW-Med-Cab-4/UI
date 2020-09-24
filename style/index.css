@@ -21,7 +21,6 @@ padding: 0;
 font: inherit;  
 vertical-align: baseline;  
 }
-
 /*---- To make flexbox work correctly ----*/
 * {
     box-sizing: border-box;
@@ -83,8 +82,6 @@ p, h5 {
     margin: 2rem;
     font-family: 'Zilla Slab', serif;
 }
-
-
 /*--- Main is the block of text and main heading on each page ---*/
 main {
     display: flex;
@@ -116,9 +113,6 @@ main {
     border-radius: 10px;
     padding: 1rem 0;
 }
-
-
-
 .features-content {
     width: 100%;
     display: flex;
@@ -128,21 +122,17 @@ main {
     justify-content: center;
     height: 65vh;
 }
-
-
 /*--- Sign up and Log in buttons on Mission/Features ---*/
 .main-buttons {
     display: flex;
     justify-content: center;  
 }
-
 .mission-buttons {
     display: flex;
     justify-content: center;  
     background-color: #26282C;
     padding-top: 1rem;
 }
-
 .main-button {
     padding: .5rem 3rem;
     width: 32%;
@@ -151,16 +141,6 @@ main {
     border-radius: 10px;
     text-align: center;
 }
-/*--- Image on Mission page ---*/
-/*.hero-image {
-    height: 45vh;
-    background: url('../images/rx.jpg');
-    opacity: 0.8;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-}*/
 /*------Footer------*/
 footer {
     background-color: #26282C;
@@ -188,8 +168,6 @@ footer {
     border-radius: 50%;  
     width: 50%;
 }
-
-
 
 /* ------ Breakpoints Styles ------ */
 
