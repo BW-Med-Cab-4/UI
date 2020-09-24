@@ -394,14 +394,14 @@ header nav {
     align-items: center;
 }
 
-.TL,
+/* .TL,
 .BE {
     width: 60%;
-}
+} */
 
 .workerCard img {
-    width: 55%;
-    margin: 10px;
+    width: 200px;
+    margin: 20px;
     box-shadow: 0 0 5px 5px #004225;
 }
 
