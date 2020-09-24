@@ -1,3 +1,4 @@
+// Christopher Girvin
 const articles = [{
         "photo": "https://scitechdaily.com/images/Medical-Marijuana-777x536.jpg",
         "link": "https://scitechdaily.com/medical-experts-it-is-time-to-embrace-cannabis-for-medicinal-use/",
