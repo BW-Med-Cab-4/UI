@@ -17,7 +17,7 @@ time, mark, audio, video {
 margin: 0;  
 padding: 0;  
 /*border: 0;*/  
-font-size: 100%;  
+/*font-size: 100%;*/ 
 font: inherit;  
 vertical-align: baseline;  
 }
@@ -26,7 +26,7 @@ vertical-align: baseline;
 * {
     box-sizing: border-box;
     max-width:100%;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 /*------ To make rems work ------*/
 html {
@@ -101,13 +101,14 @@ main {
     text-align: center;
     align-self: center;
     justify-content: center;
-    background: url('../images/bud.jpg');
+    background-image: url('../images/bud.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
     height: 85vh;
     
 }
+/*--- Mission content gray box around text ---*/
 .mission-content p {
     background-color: lightgray;
     opacity: 75%;
@@ -115,6 +116,7 @@ main {
     border-radius: 10px;
     padding: 1rem 0;
 }
+
 
 
 .features-content {
@@ -208,6 +210,9 @@ footer {
     .hero-image {
         height: 50vh;
     }
+    .mission-content h1 {
+        margin-bottom: 5rem;
+    }
 }
 
 @media (min-width: 800px) {
@@ -225,6 +230,9 @@ footer {
     .hero-image {
         height: 75vh;
     }
+    .mission-content h1 {
+        margin-bottom: 10rem; 
+    }
 }
 
 @media (min-width: 1024px) {
@@ -234,6 +242,10 @@ footer {
     
     h1 {
         font-size: 8rem;
+        
+    }
+    .mission-content h1 {
+        margin-bottom: 15rem;
     }
     p {
         font-size: 3rem;
@@ -245,6 +257,16 @@ footer {
     }  
     .hero-image {
         height: 90vh;
+    }
+}
+
+@media (min-width: 1550px) {
+    .mission-content h1 {
+        font-size: 10rem;
+        margin-bottom: 20rem
+    }
+    p{
+        font-size: 4rem
     }
 }
 
