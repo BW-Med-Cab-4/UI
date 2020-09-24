@@ -374,20 +374,14 @@ header nav {
     color: #2f243aff;
 }
 
-.teamLead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .workers {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.workerCard {
+.workerCard,
+.teamLead {
     width: 50%;
     display: flex;
     flex-direction: column;
