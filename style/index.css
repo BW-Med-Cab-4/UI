@@ -90,7 +90,7 @@ main {
     display: flex;
     flex-direction: column;
     align-self: center;
-    color: black;
+    color: #26282C;
     
 }
 /*--- Mission page main content ---*/
@@ -108,11 +108,12 @@ main {
     height: 85vh;
     
 }
-.text-box {
-    background-color: gray;
-    opacity: 60%;
-    padding: 0;
-    margin: 0;
+.mission-content p {
+    background-color: black;
+    opacity: 65%;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 
