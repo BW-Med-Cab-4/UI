@@ -279,7 +279,7 @@ header nav {
 }
 
 
-/* tablet styles */
+/* tablet styles (800px) */
 
 @media (max-width: 800px) {
     header nav {
@@ -301,7 +301,7 @@ header nav {
 }
 
 
-/* mobile styles */
+/* mobile styles (500px) */
 
 @media (max-width: 500px) {
     header {
@@ -388,6 +388,10 @@ header nav {
     align-items: center;
 }
 
+.BE {
+    width: 100%;
+}
+
 .workerCard img {
     width: 200px;
     margin: 20px;
@@ -435,6 +439,12 @@ header nav {
     .title h1 {
         font-size: 4rem;
     }
+    .aboutContainer h2 {
+        font-size: 1.2rem;
+    }
+    .aboutContainer h3 {
+        font-size: 0.9rem;
+    }
 }
 
 
@@ -442,9 +452,40 @@ header nav {
 
 @media (max-width: 500px) {
     .aboutContainer h2 {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     .aboutContainer h3 {
-        font-size: 0.9rem;
+        font-size: 0.6rem;
+    }
+    .workerCard img {
+        width: 100px;
+    }
+}
+
+/* fix pile-ups on really skinny screens */
+
+/* 350px */
+@media (max-width: 350px) {
+    .title h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+/* 300px */
+@media (max-width: 300px) {
+    nav {
+        flex-direction: column;
+    }
+    header {
+        height: 20vh;
+    }
+    h1, h2, h3 {
+        text-align: center;
+    }
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
