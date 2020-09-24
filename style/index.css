@@ -91,22 +91,53 @@ main {
     flex-direction: column;
     align-self: center;
     color: black;
+    
 }
 /*--- Mission page main content ---*/
-.main-content {
+.mission-content {
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-self: center;
     justify-content: center;
+    background: url('../images/bud.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     height: 85vh;
-    background-color: whitesmoke;
+    
 }
+.text-box {
+    background-color: gray;
+    opacity: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.features-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    height: 65vh;
+}
+
+
 /*--- Sign up and Log in buttons on Mission/Features ---*/
 .main-buttons {
     display: flex;
     justify-content: center;  
+}
+
+.mission-buttons {
+    display: flex;
+    justify-content: center;  
+    background-color: #26282C;
+    padding-top: 1rem;
 }
 
 .main-button {
@@ -115,9 +146,10 @@ main {
     margin: 1rem;
     background-color:blueviolet;
     border-radius: 10px;
+    text-align: center;
 }
 /*--- Image on Mission page ---*/
-.hero-image {
+/*.hero-image {
     height: 45vh;
     background: url('../images/rx.jpg');
     opacity: 0.8;
@@ -125,7 +157,7 @@ main {
     background-size: cover;
     background-position: center;
     
-}
+}*/
 /*------Footer------*/
 footer {
     background-color: #26282C;
