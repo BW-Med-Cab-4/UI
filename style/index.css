@@ -109,9 +109,9 @@ main {
     
 }
 .mission-content p {
-    background-color: black;
-    opacity: 65%;
-    color: whitesmoke;
+    background-color: lightgray;
+    opacity: 75%;
+    color: black;
     border-radius: 10px;
     padding: 1rem 0;
 }
