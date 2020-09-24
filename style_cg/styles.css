@@ -394,11 +394,6 @@ header nav {
     align-items: center;
 }
 
-/* .TL,
-.BE {
-    width: 60%;
-} */
-
 .workerCard img {
     width: 200px;
     margin: 20px;
@@ -433,12 +428,16 @@ header nav {
 /* Width Breakpoints */
 
 
-/* 800px */
+/* 1000px */
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .workers {
         flex-direction: column;
     }
+}
+
+/* 800px */
+@media (max-width: 800px) {
     .title h1 {
         font-size: 4rem;
     }
