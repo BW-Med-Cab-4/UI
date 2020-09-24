@@ -213,7 +213,7 @@ header nav {
 }
 
 .welcomeSection .left {
-    background-image: url("../resources/landingImg_handAndPlant.jpg");
+    background-image: url("../images/landingImg_handAndPlant.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -339,7 +339,7 @@ header nav {
 }
 
 .aboutContainer .title {
-    background-image: url("../resources/aboutBG.jpg");
+    background-image: url("../images/aboutBG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -464,9 +464,12 @@ header nav {
     }
 }
 
+
 /* fix pile-ups on really skinny screens */
 
+
 /* 350px */
+
 @media (max-width: 350px) {
     .title h1 {
         font-size: 3rem;
@@ -474,7 +477,9 @@ header nav {
     }
 }
 
+
 /* 300px */
+
 @media (max-width: 300px) {
     nav {
         flex-direction: column;
@@ -482,7 +487,9 @@ header nav {
     header {
         height: 20vh;
     }
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         text-align: center;
     }
     .cards {
