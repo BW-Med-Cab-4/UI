@@ -402,6 +402,7 @@ header nav {
 .workerCard img {
     width: 55%;
     margin: 10px;
+    box-shadow: 0 0 5px 5px #004225;
 }
 
 .section {
