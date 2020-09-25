@@ -517,6 +517,7 @@ header nav {
 .articles-container img {
     width: 50%;
     height: 50%;
+    margin: 10px;
     border-radius: 10%;
     box-shadow: 1px 0 0 1px #000;
 }
@@ -532,15 +533,16 @@ header nav {
 .articles-container h3,
 .articles-container h4 {
     text-align: center;
+    color: whitesmoke;
 }
 
-.articles-container .card {
+.articles-container a {
     max-width: 300px;
     width: 50%;
     height: 40vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 10px;
     padding: 10px;
