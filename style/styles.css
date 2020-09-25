@@ -163,6 +163,7 @@ a {
 a:hover {
     opacity: 75%;
     transform: scale(1.2);
+    transition-duration: 300ms;
 }
 
 h3,
@@ -563,4 +564,12 @@ footer h4 {
     color: whitesmoke;
     margin: 2px;
     padding: 2px;
+}
+
+
+/* footer "animations" */
+
+footer a:hover {
+    transform: scale(1.5) rotateX(180deg) rotateX(180deg);
+    transition-duration: 1s;
 }
