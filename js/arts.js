@@ -38,9 +38,10 @@ const articles = [{
 
 function getArticles(data) {
     data.forEach(art => {
+        const anchor = document.createElement("a");
+        anchor.setAttribute("href", art.link);
         const card = document.createElement("div");
         card.className = `card ${art.author}`;
-        card.setAttribute("href", art.link);
         const headline = document.createElement("h3");
         headline.className = "headline";
         headline.textContent = art.headline;
@@ -54,7 +55,8 @@ function getArticles(data) {
         card.appendChild(headline);
         card.appendChild(photo);
         card.appendChild(author);
-        container.appendChild(card);
+        anchor.appendChild(card);
+        container.appendChild(anchor);
     })
 }
 
