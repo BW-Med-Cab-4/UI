@@ -141,10 +141,6 @@ table {
     border-spacing: 0;
 }
 
-a:hover {
-    opacity: 75%;
-}
-
 
 /* font imports and text styles */
 
@@ -162,6 +158,11 @@ a {
     font-family: 'Zilla Slab', serif;
     text-decoration: none;
     text-align: center;
+}
+
+a:hover {
+    opacity: 75%;
+    transform: scale(1.2);
 }
 
 h3,
