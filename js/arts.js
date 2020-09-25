@@ -38,17 +38,17 @@ const articles = [{
 
 function getArticles(data) {
     data.forEach(art => {
-        const card = document.createElement('div');
+        const card = document.createElement("div");
         card.className = `card ${art.author}`;
         card.setAttribute("href", art.link);
         const headline = document.createElement("h3");
-        headline.className = 'headline';
+        headline.className = "headline";
         headline.textContent = art.headline;
-        const photo = document.createElement('img');
+        const photo = document.createElement("img");
         photo.src = art.photo;
         photo.alt = headline;
-        const author = document.createElement('h4');
-        author.className = 'author';
+        const author = document.createElement("h4");
+        author.className = "author";
         author.textContent = `By ${art.author}`;
         const container = document.querySelector("div.articles-container")
         card.appendChild(headline);
